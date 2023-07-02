@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         redirection to AOJ 2.0
-// @namespace    https://gist.github.com/luckylat/bf28f378e292529e77f5febf20a90f54
+// @namespace    https://github.com/luckylat/UserScripts/edit/master/AOJ-RedirectToVersion2.user.js
 // @version      0.2.1
 // @description  AOJ2.0にリダイレクトするユーザースクリプト
 // @author       CleyL
