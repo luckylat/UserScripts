@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Youtube Additional Playlist
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/luckylat/UserScripts/blob/master/Youtube-AdditionalPlaylist.user.js
 // @version      0.2.2.1
 // @description  add (un)read property whether it is in youur video history or not.
 // @author       CleyL
