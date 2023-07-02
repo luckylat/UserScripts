@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         yukicoder unsolved filter
 // @namespace    https://github.com/luckylat/UserScripts/blob/master/yukicoder-SolvedFilter.user.js
-// @version      0.1
+// @version      0.1.1
 // @description  yukicoderの提出ページで解いている問題を非表示にします
 // @author       CleyL
 // @match        https://yukicoder.me/submissions/*
