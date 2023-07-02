@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         AtCoderTags-SolvedProblemHiddener
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/luckylat/UserScripts/blob/master/AtCoderTags-SolvedProblemHiddener.user.js
 // @version      0.1
 // @description  AtCoderTagsで灰色に表示される既に解いた問題を非表示にします
 // @author       luckYrat
