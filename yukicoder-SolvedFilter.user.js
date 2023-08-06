@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         yukicoder unsolved filter
 // @namespace    https://github.com/luckylat/UserScripts/blob/master/yukicoder-SolvedFilter.user.js
-// @version      0.1.2
+// @version      0.1.3
 // @description  yukicoderの提出ページで解いている問題を非表示にします
 // @author       CleyL
 // @match        https://yukicoder.me/submissions*
@@ -60,7 +60,8 @@
         [...problems.children].forEach((problem) => {
             const problemId = problemIdReg.exec(problem.children[4].innerText);
             const problemNum = numReg.exec(problemId)[0];
-            if(problemSet.has(problemNum)){
+            //9000番台も非表示にする
+            if(problemSet.has(problemNum) || problemNum[0] == '9'){
                 problem.remove();
             }
         })
