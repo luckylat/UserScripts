@@ -62,7 +62,6 @@
             const problemId = problemIdReg.exec(problem.children[4].innerText);
             const problemNum = numReg.exec(problemId)[0];
             //3000番台(ジョーク問題), 5000番台(マラソン問題), 9000番台(テスト問題)も非表示にする
-            console.log(problemNum);
             if(problemSet.has(problemNum) || (problemNum.toString().length === 4 && (problemNum[0] == '3' || problemNum[0] == '5' || problemNum[0] == '9'))){
                 problem.remove();
             }
