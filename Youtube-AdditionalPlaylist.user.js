@@ -19,9 +19,9 @@
         return new Promise(async (resolve, reject) => {
             const playlist = await new Promise(async (resolve,reject) => {
                 const pid = setInterval(() => {
-                    const playlistBrowser = document.querySelector("ytd-browse[page-subtype='playlist']")
+                    const playlistBrowser = document.querySelector("ytd-two-column-browse-results-renderer")
 
-                    const pl = playlistBrowser.children[8].children[0].children[0].children[1]
+                    const pl = playlistBrowser.children[0].children[0].children[1]
                     if(pl){
                         clearInterval(pid)
                         resolve(pl)
@@ -112,4 +112,3 @@
 
     if(location.href.startsWith(playlistUrl))core()
 })();
-
